@@ -1,0 +1,139 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<HTML>
+
+<HEAD>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+input[type=number], textarea {
+  width: 55%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+
+input[type=button] {
+  width: 30%;
+  background-color: RED;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=button]:hover {
+  background-color: RED;
+}
+
+
+input[type=button] {
+  width: 50%;
+  background-color: RED;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=button]:hover {
+  background-color: RED;
+}
+
+
+input[type=submit] {
+  width: 50%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color:   #85c1e9  ;
+  padding: 20px;
+  width: 30%;
+}
+
+.col-75 {
+  float: center;
+  width: 90%;
+  margin-top: 6px;
+}
+
+
+</style>
+<TITLE>LISTAR_FARMACOS</TITLE>
+
+</HEAD>
+
+<body style='background-color: #d5f5e3'>
+
+<CENTER><IMG SRC="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/URJC_logo.svg/1200px-URJC_logo.svg.png" ALIGN="BOTTOM" width="150" height="50"/> </CENTER>
+
+<HR>
+
+<CENTER><FONT FACE="arial"><H1>EXPLORADOR FDA</H1></FONT>
+
+
+<div class="container">
+  <form action="/listDrugs" method = "get">
+  <div class="row">
+  <div>
+      <CENTER><b><FONT FACE="arial"><label for="fname">LISTAR FÁRMACOS</label></b></FONT>
+    </div>
+    <div class="col-75">
+      <input type="number" id="fname" name="limit" placeholder="Límite..." required>
+    </div>
+  </div>
+
+  <div class="row">
+    <input type="submit" value="LISTAR">
+  </div>
+  <div class="row">
+    <input type="button" value="CANCELAR" onclick="window.location.href='http://localhost:8000/'" />
+  </div>
+  </form>
+</div>
+
+<FONT FACE="arial"><CENTER><H4>Powered by</H4></FONT>
+<CENTER><IMG SRC="https://s3.amazonaws.com/poly-screenshots.angel.co/Project/a1/502691/ade7e3af4d1b15412a068de5075a601f-original.png" ALIGN="BOTTOM" width="150" height="50"/> </CENTER>
+
+<HR>
+</p>
+<FONT FACE="arial">INGENIERÍA BIOMÉDICA</FONT><br>
+<FONT FACE="arial">PROGRAMACIÓN EN ENTORNOS DE RED</FONT><br>
+<FONT FACE="arial">Manuel Gutiérrez Fuentes</FONT><br>
+
+
+<a href="mailto:m.gutierrezf.2018@alumnos.urjc.es">
+m.gutierrezf.2018@alumnos.urjc.es</a>
+
+
+
+</BODY>
+
+</HTML>
+
+</HTML>
